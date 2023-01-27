@@ -13,4 +13,3 @@ if __name__ == '__main__':
     application = ApplicationBuilder().token(BOT_TOKEN).build()
     application.add_handlers(handlers)
     application.run_polling()
-
